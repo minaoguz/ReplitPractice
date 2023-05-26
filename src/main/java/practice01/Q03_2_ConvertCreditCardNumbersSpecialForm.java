@@ -2,7 +2,7 @@ package practice01;
 
 import java.util.Scanner;
 
-public class Q03_2 {
+public class Q03_2_ConvertCreditCardNumbersSpecialForm {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

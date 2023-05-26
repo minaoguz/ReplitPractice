@@ -2,7 +2,7 @@ package practice01;
 
 import java.util.Scanner;
 
-public class Q03_3 {
+public class Q03_3_ConvertNameSpecialForm {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

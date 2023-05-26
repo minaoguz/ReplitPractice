@@ -2,7 +2,7 @@ package practice01;
 
 import java.util.Scanner;
 
-public class Q03 {
+public class Q03_1_ConvertNameSurnameAndCreditCardNumbersSpecialForm {
     public static void main(String[] args) {
         /*
         * Ask user; Name, Surname and credit card numbers than convert it to special form.

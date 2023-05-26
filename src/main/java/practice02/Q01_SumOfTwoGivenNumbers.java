@@ -2,7 +2,7 @@ package practice02;
 
 import java.util.Scanner;
 
-public class Q01 {
+public class Q01_SumOfTwoGivenNumbers {
     public static void main(String[] args) {
 
         /*

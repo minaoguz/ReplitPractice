@@ -2,7 +2,7 @@ package practice01;
 
 import java.util.Scanner;
 
-public class Q02 {
+public class Q02_CalculateBMI {
     public static void main(String[] args) {
         /*
             Ask user to their weight and height and type a program with calculates mass index
