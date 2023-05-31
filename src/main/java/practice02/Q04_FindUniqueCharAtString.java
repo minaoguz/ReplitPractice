@@ -1,5 +1,7 @@
 package practice02;
 
+import java.util.Scanner;
+
 public class Q04_FindUniqueCharAtString {
     /*
             Ask user to type a name, the length of name should be 3.
@@ -15,5 +17,34 @@ public class Q04_FindUniqueCharAtString {
         String has duplicate characters
      */
 
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please write your name.");
+        String name = input.nextLine();
+
+        int counter = 0;
+
+        for (int i = 0; i<name.length(); i++){
+
+            char chr = name.charAt(i);
+
+            if (name.indexOf(chr) == name.lastIndexOf(chr)){
+                continue;
+
+            }else {
+                counter++;
+            }
+
+        }
+
+        if (counter == 0){
+            System.out.println("String has unique characters.");
+        }else {
+            System.out.println("String has duplicate characters.");
+        }
+
+
+
+    }
 
 }
